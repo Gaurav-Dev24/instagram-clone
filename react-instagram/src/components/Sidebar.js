@@ -1,7 +1,7 @@
 import "../styles/Sidebar.css";
 import Stories from "./Stories";
 
-function Cards(){
+function Sidebar(){
     return(
         <div className="sidebar">
             <Stories />
@@ -9,4 +9,4 @@ function Cards(){
     )
 }
 
-export default Cards;
+export default Sidebar;
